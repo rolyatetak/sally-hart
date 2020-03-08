@@ -1,0 +1,67 @@
+/* body tag contains everything on the page */
+
+body {
+	font-family: Cooper Hewitt;
+	font-size: 16px;
+  line-height: 1.5;
+	
+	background-color: #004d96;
+	color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+footer a {
+  margin-right: 5px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #ffffff;
+/*  this removes the default underline  */
+  text-decoration: none;
+}
+
+/* this is called a pseudo selector */
+a:hover {
+  color: #dddddd;
+}
+
+section {
+/* vh: viewport height
+   vw: viewport width */
+  height: 100vh;
+  background-image: url(sally_1.jpg);
+  background-size: cover;
+/*  this will fix the bg to the viewpoint  */
+  background-attachment: fixed;
+}
+
+/* this will apply styles to anything in our html which has this class */
+.image_2 {
+  background-image: url(sally_2.jpg);
+}
+
+.image_3 {
+  background-image: url(sally_3.jpg);
+}
+
+.image_4 {
+  background-image: url(sally_4.jpg);
+}
+
